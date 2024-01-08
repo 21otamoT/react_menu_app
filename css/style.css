@@ -1,0 +1,77 @@
+body {
+  display: grid;
+  place-items: center;
+}
+
+li {
+  list-style: none;
+}
+
+h1 {
+  text-align: center;
+
+}
+
+p {
+  text-align: center;
+  margin-top: 24px;
+  font-size: 40px;
+}
+
+#root {
+  width: 80%;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.menu {
+  width: 90%;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.menu-item {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  border: 1px solid #aaa;
+  padding: 5px;
+  margin: 16px auto 0;
+  border-radius: 20px;
+}
+
+.menu-item button {
+  width: 30px;
+  border-radius: 20px;
+}
+
+.menu-item button:first-child {
+  background-color: #fff;
+}
+
+.menu-item button:last-child {
+  background-color: #333;
+  color: #fff;
+}
+
+p span {
+  border-bottom:3px solid tomato ;
+}
+
+@media screen and (max-width: 768px) {
+  .menu-item {
+    width: 100%;
+    white-space: nowrap;
+  }
+}
