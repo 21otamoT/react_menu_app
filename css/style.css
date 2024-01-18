@@ -57,12 +57,11 @@ p {
 }
 
 .menu-item button:first-child {
-  background-color: #fff;
+  border-color: red;
 }
 
 .menu-item button:last-child {
-  background-color: #333;
-  color: #fff;
+  border-color: #00ff7f;
 }
 
 p span {

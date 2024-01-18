@@ -4,16 +4,15 @@ const Menu = props => {
     
     return (
       <li className="menu-item">
-        <span>
           <button onClick={decrement}>-</button>
-          <button onClick={increment}>+</button>
-        </span>
         {props.menuName}{props.price}円 x {props.count}個
+        <button onClick={increment}>+</button>
       </li>
     );
 };
 
 const App = () => {
+  
   const menuItems = [
     {id:0, name:'さけ定食', price:500},
     {id:1, name:'だし巻き卵定食', price:600},
